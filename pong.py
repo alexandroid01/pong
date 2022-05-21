@@ -47,7 +47,7 @@ score.color("white")
 score.penup()
 score.hideturtle()
 score.goto(0, 260)
-score.write("Left player : 0   Right player: 0", align = "center", font = ("Courier", 24, "normal"))
+score.write("Left player : 0   Right player : 0", align = "center", font = ("Courier", 24, "normal"))
 
 # functions that move the paddles
 def leftPaddleUp():
